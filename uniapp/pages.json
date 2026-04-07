@@ -1,0 +1,68 @@
+﻿{
+	"pages": [
+		{
+			"path": "pages/auth/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#eef5f2"
+			}
+		},
+		{
+			"path": "pages/auth/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationBarBackgroundColor": "#fdf5ea"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "车辆违法助手",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#f4f7fb"
+			}
+		},
+		{
+			"path": "pages/profile/index",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#f4f7fb"
+			}
+		},
+		{
+			"path": "pages/violation/detail",
+			"style": {
+				"navigationBarTitleText": "违法详情",
+				"navigationBarBackgroundColor": "#f4f7fb"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#07c160",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png"
+			},
+			{
+				"pagePath": "pages/profile/index",
+				"text": "个人信息",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "车辆违法助手",
+		"navigationBarBackgroundColor": "#F4F7FB",
+		"backgroundColor": "#F4F7FB"
+	},
+	"uniIdRouter": {}
+}
